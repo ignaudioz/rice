@@ -1,0 +1,8 @@
+[FileDialogSize]
+HDMI-1 HDMI-0 Height 1920x1080 HDMI-1=600
+HDMI-1 HDMI-0 Width 1920x1080 HDMI-1=982
+
+[KFileDialog Settings]
+Recent Files[$e]=database.kdbx,file:$HOME/Desktop/Sync/database.kdbx
+Recent URLs[$e]=file:$HOME/Desktop/Sync/
+detailViewIconSize=16

@@ -1,0 +1,158 @@
+2022-10-08 05:37:56.642 (I) ==================== SSR started ====================
+2022-10-08 05:37:56.643 (I) SimpleScreenRecorder 0.4.4
+Compiled with GCC 11.2.0
+Qt: header 5.15.3, lib 5.15.6
+libavformat: header 59.16.100, lib 59.27.100
+libavcodec: header 59.18.100, lib 59.37.100
+libavutil: header 57.17.100, lib 57.28.100
+libswscale: header 6.4.100, lib 6.7.100
+2022-10-08 05:37:56.643 (I) [CPUFeatures::Detect] CPU features: mmx sse sse2 sse3 ssse3 sse4_1 sse4_2 avx avx2 bmi1 bmi2
+2022-10-08 05:37:56.674 (I) [ALSAInput::GetSourceList] Generating source list ...
+2022-10-08 05:37:56.674 (I) [ALSAInput::GetSourceList] Found card: [hw:0] HyperX Virtual Surround Sound
+2022-10-08 05:37:56.674 (I) [ALSAInput::GetSourceList] Found device: [hw:0,0] HyperX Virtual Surround Sound: USB Audio
+2022-10-08 05:37:56.674 (I) [ALSAInput::GetSourceList] Found card: [hw:1] HDA Intel PCH
+2022-10-08 05:37:56.674 (I) [ALSAInput::GetSourceList] Found device: [hw:1,0] HDA Intel PCH: ALC887-VD Analog
+2022-10-08 05:37:56.674 (I) [ALSAInput::GetSourceList] Found device: [hw:1,2] HDA Intel PCH: ALC887-VD Alt Analog
+2022-10-08 05:37:56.674 (I) [ALSAInput::GetSourceList] Found card: [hw:2] HDA NVidia
+2022-10-08 05:37:56.675 (I) [PulseAudioInput::GetSourceList] Generating source list ...
+2022-10-08 05:37:56.677 (I) [SourceNamesCallback] Found source: [alsa_output.pci-0000_01_00.1.hdmi-stereo-extra1.monitor] Monitor of GM107 High Definition Audio Controller [GeForce 940MX] Digital Stereo (HDMI 2)
+2022-10-08 05:37:56.677 (I) [SourceNamesCallback] Found source: [alsa_output.usb-Kingston_HyperX_Virtual_Surround_Sound_00000000-00.analog-stereo.monitor] Monitor of HyperX 7.1 Audio Analog Stereo
+2022-10-08 05:37:56.677 (I) [SourceNamesCallback] Found source: [alsa_input.usb-Kingston_HyperX_Virtual_Surround_Sound_00000000-00.analog-stereo] HyperX 7.1 Audio Analog Stereo
+2022-10-08 05:37:56.677 (I) [SourceNamesCallback] Found source: [alsa_output.pci-0000_00_1f.3.analog-stereo.monitor] Monitor of Built-in Audio Analog Stereo
+2022-10-08 05:37:56.770 (E) [PageRecord::OnStdin] Standard input read error (ioctl).
+2022-10-08 05:38:58.947 (I) [PageRecord::StartPage] Starting page ...
+2022-10-08 05:38:58.947 (I) [PageRecord::StartPage] Started page.
+2022-10-08 05:41:00.004 (I) [PageRecord::OnScheduleTimer] Triggering scheduled action 'start' ...
+2022-10-08 05:41:00.004 (I) [PageRecord::StartOutput] Starting output ...
+2022-10-08 05:41:00.005 (I) [PageRecord::StartOutput] Output file: /home/audioz/Videos/yakobo-2022-10-08_05.41.00.mp4
+2022-10-08 05:41:00.005 (I) [Muxer::Init] Using format mp4 (MP4 (MPEG-4 Part 14)).
+2022-10-08 05:41:00.006 (I) [Muxer::AddStream] Using codec libx264 (libx264 H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10).
+2022-10-08 05:41:00.009 (I) [VideoEncoder::PrepareStream] Using pixel format nv12.
+2022-10-08 05:41:00.012 (S) [libx264 @ 0x5635784a12c0] using SAR=1/1
+2022-10-08 05:41:00.013 (S) [libx264 @ 0x5635784a12c0] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+2022-10-08 05:41:00.017 (S) [libx264 @ 0x5635784a12c0] profile High, level 4.0, 4:2:0, 8-bit
+2022-10-08 05:41:00.018 (S) [libx264 @ 0x5635784a12c0] 264 - core 164 r3095 baee400 - H.264/MPEG-4 AVC codec - Copyleft 2003-2022 - http://www.videolan.org/x264.html - options: cabac=1 ref=1 deblock=1:0:0 analyse=0x3:0x3 me=dia subme=1 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=6 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=1 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc=crf mbtree=0 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 pb_ratio=1.30 aq=1:1.00
+2022-10-08 05:41:00.018 (I) [Muxer::AddStream] Using codec libvorbis (libvorbis).
+2022-10-08 05:41:00.018 (I) [BaseEncoder::EncoderThread] Encoder thread started.
+2022-10-08 05:41:00.018 (I) [AudioEncoder::PrepareStream] Using sample format f32p.
+2022-10-08 05:41:00.022 (I) [BaseEncoder::EncoderThread] Encoder thread started.
+2022-10-08 05:41:00.024 (I) [Muxer::MuxerThread] Muxer thread started.
+2022-10-08 05:41:00.024 (I) [Synchronizer::SynchronizerThread] Synchronizer thread started.
+2022-10-08 05:41:00.024 (I) [PageRecord::StartOutput] Started output.
+2022-10-08 05:41:00.024 (I) [PageRecord::StartInput] Starting input ...
+2022-10-08 05:41:00.024 (I) [X11Input::Init] Using X11 shared memory.
+2022-10-08 05:41:00.024 (I) [X11Input::Init] Detecting screen configuration ...
+2022-10-08 05:41:00.025 (I) [X11Input::Init] Screen 0: x1 = 0, y1 = 0, x2 = 1920, y2 = 1080
+2022-10-08 05:41:00.025 (I) [X11Input::InputThread] Input thread started.
+2022-10-08 05:41:00.027 (I) [PulseAudioInput::InputThread] Stream is not a monitor.
+2022-10-08 05:41:00.027 (I) [PageRecord::StartInput] Started input.
+2022-10-08 05:41:00.027 (I) [PulseAudioInput::InputThread] Input thread started.
+2022-10-08 05:41:00.147 (I) [FastResampler::Resample] Resample ratio is 1.0000 (was 0.0000).
+2022-10-08 05:41:20.004 (I) [PageRecord::OnScheduleTimer] Triggering scheduled action 'start' ...
+2022-10-08 05:41:56.092 (I) [PageRecord::StopOutput] Stopping output ...
+2022-10-08 05:41:56.092 (I) [PageRecord::StopOutput] Stopped output.
+2022-10-08 05:41:56.092 (I) [PageRecord::StopInput] Stopping input ...
+2022-10-08 05:41:56.092 (I) [X11Input::~X11Input] Stopping input thread ...
+2022-10-08 05:41:56.092 (I) [X11Input::InputThread] Input thread stopped.
+2022-10-08 05:41:56.094 (I) [PulseAudioInput::~PulseAudioInput] Stopping input thread ...
+2022-10-08 05:41:56.095 (I) [PulseAudioInput::InputThread] Input thread stopped.
+2022-10-08 05:41:56.095 (I) [PageRecord::StopInput] Stopped input.
+2022-10-08 05:41:56.095 (I) [PageRecord::StopPage] Stopping page ...
+2022-10-08 05:41:56.095 (I) [Synchronizer::~Synchronizer] Stopping synchronizer thread ...
+2022-10-08 05:41:56.111 (I) [Synchronizer::SynchronizerThread] Synchronizer thread stopped.
+2022-10-08 05:41:56.111 (I) [Muxer::Finish] Finishing encoders ...
+2022-10-08 05:41:56.112 (I) [BaseEncoder::EncoderThread] Flushing encoder ...
+2022-10-08 05:41:56.115 (I) [BaseEncoder::EncoderThread] Flushing encoder ...
+2022-10-08 05:41:56.125 (I) [BaseEncoder::EncoderThread] Encoder thread stopped.
+2022-10-08 05:41:56.145 (I) [BaseEncoder::EncoderThread] Encoder thread stopped.
+2022-10-08 05:41:56.164 (I) [Muxer::MuxerThread] Muxer thread stopped.
+2022-10-08 05:41:56.171 (I) [Muxer::~Muxer] Stopping encoders ...
+2022-10-08 05:41:56.171 (I) [Muxer::~Muxer] Waiting for muxer thread to stop ...
+2022-10-08 05:41:56.173 (I) [BaseEncoder::~BaseEncoder] Stopping encoder thread ...
+2022-10-08 05:41:56.173 (S) [libx264 @ 0x5635784a12c0] frame I:8     Avg QP: 9.81  size:109829
+2022-10-08 05:41:56.173 (S) [libx264 @ 0x5635784a12c0] frame P:609   Avg QP:15.39  size:  8401
+2022-10-08 05:41:56.173 (S) [libx264 @ 0x5635784a12c0] frame B:1050  Avg QP:17.45  size:  1445
+2022-10-08 05:41:56.173 (S) [libx264 @ 0x5635784a12c0] consecutive B-frames:  8.9% 16.4% 14.4% 60.2%
+2022-10-08 05:41:56.173 (S) [libx264 @ 0x5635784a12c0] mb I  I16..4: 60.3% 16.7% 23.1%
+2022-10-08 05:41:56.173 (S) [libx264 @ 0x5635784a12c0] mb P  I16..4:  2.3%  0.5%  1.3%  P16..4:  3.2%  0.0%  0.0%  0.0%  0.0%    skip:92.7%
+2022-10-08 05:41:56.173 (S) [libx264 @ 0x5635784a12c0] mb B  I16..4:  0.2%  0.0%  0.1%  B16..8:  3.8%  0.0%  0.0%  direct: 0.7%  skip:95.2%  L0:49.3% L1:49.7% BI: 1.0%
+2022-10-08 05:41:56.173 (S) [libx264 @ 0x5635784a12c0] 8x8 transform intra:12.7% inter:9.7%
+2022-10-08 05:41:56.173 (S) [libx264 @ 0x5635784a12c0] coded y,uvDC,uvAC intra: 30.7% 49.2% 40.0% inter: 0.5% 1.2% 0.5%
+2022-10-08 05:41:56.173 (S) [libx264 @ 0x5635784a12c0] i16 v,h,dc,p: 75% 21%  1%  2%
+2022-10-08 05:41:56.173 (S) [libx264 @ 0x5635784a12c0] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 10% 37% 22%  5%  4%  2%  9%  1%  9%
+2022-10-08 05:41:56.173 (S) [libx264 @ 0x5635784a12c0] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 37% 26% 21%  3%  3%  3%  3%  2%  2%
+2022-10-08 05:41:56.173 (S) [libx264 @ 0x5635784a12c0] i8c dc,h,v,p: 38% 26% 32%  4%
+2022-10-08 05:41:56.173 (S) [libx264 @ 0x5635784a12c0] Weighted P-Frames: Y:0.0% UV:0.0%
+2022-10-08 05:41:56.173 (S) [libx264 @ 0x5635784a12c0] kb/s:1074.39
+2022-10-08 05:41:56.174 (I) [BaseEncoder::~BaseEncoder] Stopping encoder thread ...
+2022-10-08 05:41:56.175 (I) [PageRecord::StopPage] Stopped page.
+2022-10-08 05:41:58.017 (S) 
+2022-10-08 05:41:58.017 (S) (pcmanfm:9860): Gdk-WARNING **: 05:41:58.017: gdk_window_set_icon_list: icons too large
+2022-10-08 05:42:13.773 (S) 
+2022-10-08 05:42:13.773 (S) (pcmanfm:9860): Gdk-WARNING **: 05:42:13.773: gdk_window_set_icon_list: icons too large
+2022-10-08 05:45:07.165 (I) [PageRecord::StartPage] Starting page ...
+2022-10-08 05:45:07.165 (I) [PageRecord::StartPage] Started page.
+2022-10-08 05:46:01.003 (I) [PageRecord::OnScheduleTimer] Triggering scheduled action 'start' ...
+2022-10-08 05:46:01.003 (I) [PageRecord::StartOutput] Starting output ...
+2022-10-08 05:46:01.003 (I) [PageRecord::StartOutput] Output file: /home/audioz/Desktop/lolz-2022-10-08_05.46.01.mkv
+2022-10-08 05:46:01.003 (I) [Muxer::Init] Using format matroska (Matroska).
+2022-10-08 05:46:01.003 (I) [Muxer::AddStream] Using codec libx264 (libx264 H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10).
+2022-10-08 05:46:01.004 (I) [VideoEncoder::PrepareStream] Using pixel format nv12.
+2022-10-08 05:46:01.004 (S) [libx264 @ 0x563577e12ac0] using SAR=1/1
+2022-10-08 05:46:01.004 (S) [libx264 @ 0x563577e12ac0] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+2022-10-08 05:46:01.005 (S) [libx264 @ 0x563577e12ac0] profile High, level 4.0, 4:2:0, 8-bit
+2022-10-08 05:46:01.006 (I) [BaseEncoder::EncoderThread] Encoder thread started.
+2022-10-08 05:46:01.006 (I) [Muxer::AddStream] Using codec pcm_s16le (PCM signed 16-bit little-endian).
+2022-10-08 05:46:01.006 (S) [libx264 @ 0x563577e12ac0] 264 - core 164 r3095 baee400 - H.264/MPEG-4 AVC codec - Copyleft 2003-2022 - http://www.videolan.org/x264.html - options: cabac=1 ref=1 deblock=1:0:0 analyse=0x3:0x3 me=dia subme=1 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=6 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=1 keyint_min=1 scenecut=40 intra_refresh=0 rc=crf mbtree=0 crf=15.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+2022-10-08 05:46:01.006 (I) [AudioEncoder::PrepareStream] Using sample format s16i.
+2022-10-08 05:46:01.006 (I) [BaseEncoder::EncoderThread] Encoder thread started.
+2022-10-08 05:46:01.006 (I) [Muxer::MuxerThread] Muxer thread started.
+2022-10-08 05:46:01.007 (I) [Synchronizer::SynchronizerThread] Synchronizer thread started.
+2022-10-08 05:46:01.007 (I) [PageRecord::StartOutput] Started output.
+2022-10-08 05:46:01.007 (I) [PageRecord::StartInput] Starting input ...
+2022-10-08 05:46:01.007 (I) [X11Input::Init] Using X11 shared memory.
+2022-10-08 05:46:01.007 (I) [X11Input::Init] Detecting screen configuration ...
+2022-10-08 05:46:01.007 (I) [X11Input::Init] Screen 0: x1 = 0, y1 = 0, x2 = 1920, y2 = 1080
+2022-10-08 05:46:01.007 (I) [X11Input::InputThread] Input thread started.
+2022-10-08 05:46:01.008 (I) [PulseAudioInput::InputThread] Stream is a monitor.
+2022-10-08 05:46:01.008 (I) [PageRecord::StartInput] Started input.
+2022-10-08 05:46:01.011 (I) [PulseAudioInput::InputThread] Input thread started.
+2022-10-08 05:46:01.164 (I) [FastResampler::Resample] Resample ratio is 1.0000 (was 0.0000).
+2022-10-08 05:46:20.004 (I) [PageRecord::OnScheduleTimer] Triggering scheduled action 'start' ...
+2022-10-08 05:46:53.733 (I) [PageRecord::StopOutput] Stopping output ...
+2022-10-08 05:46:53.733 (I) [PageRecord::StopOutput] Stopped output.
+2022-10-08 05:46:53.733 (I) [PageRecord::StopInput] Stopping input ...
+2022-10-08 05:46:53.733 (I) [X11Input::~X11Input] Stopping input thread ...
+2022-10-08 05:46:53.740 (I) [X11Input::InputThread] Input thread stopped.
+2022-10-08 05:46:53.742 (I) [PulseAudioInput::~PulseAudioInput] Stopping input thread ...
+2022-10-08 05:46:53.742 (I) [PulseAudioInput::InputThread] Input thread stopped.
+2022-10-08 05:46:53.742 (I) [PageRecord::StopInput] Stopped input.
+2022-10-08 05:46:53.742 (I) [PageRecord::StopPage] Stopping page ...
+2022-10-08 05:46:53.742 (I) [Synchronizer::~Synchronizer] Stopping synchronizer thread ...
+2022-10-08 05:46:53.762 (I) [Synchronizer::SynchronizerThread] Synchronizer thread stopped.
+2022-10-08 05:46:53.763 (I) [Muxer::Finish] Finishing encoders ...
+2022-10-08 05:46:53.769 (I) [BaseEncoder::EncoderThread] Encoder thread stopped.
+2022-10-08 05:46:53.780 (I) [BaseEncoder::EncoderThread] Flushing encoder ...
+2022-10-08 05:46:53.815 (I) [BaseEncoder::EncoderThread] Encoder thread stopped.
+2022-10-08 05:46:53.832 (I) [Muxer::MuxerThread] Muxer thread stopped.
+2022-10-08 05:46:53.844 (I) [Muxer::~Muxer] Stopping encoders ...
+2022-10-08 05:46:53.844 (I) [Muxer::~Muxer] Waiting for muxer thread to stop ...
+2022-10-08 05:46:53.844 (I) [BaseEncoder::~BaseEncoder] Stopping encoder thread ...
+2022-10-08 05:46:53.845 (S) [libx264 @ 0x563577e12ac0] frame I:1568  Avg QP: 9.80  size:113164
+2022-10-08 05:46:53.845 (S) [libx264 @ 0x563577e12ac0] mb I  I16..4: 60.3% 17.2% 22.5%
+2022-10-08 05:46:53.845 (S) [libx264 @ 0x563577e12ac0] 8x8 transform intra:17.2%
+2022-10-08 05:46:53.845 (S) [libx264 @ 0x563577e12ac0] coded y,uvDC,uvAC intra: 34.5% 45.3% 39.5%
+2022-10-08 05:46:53.845 (S) [libx264 @ 0x563577e12ac0] i16 v,h,dc,p: 76% 20%  1%  2%
+2022-10-08 05:46:53.845 (S) [libx264 @ 0x563577e12ac0] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 12% 40% 17%  5%  3%  2%  7%  2% 11%
+2022-10-08 05:46:53.845 (S) [libx264 @ 0x563577e12ac0] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 35% 31% 12%  4%  4%  3%  4%  2%  5%
+2022-10-08 05:46:53.845 (S) [libx264 @ 0x563577e12ac0] i8c dc,h,v,p: 52% 28% 16%  4%
+2022-10-08 05:46:53.845 (S) [libx264 @ 0x563577e12ac0] kb/s:27004.45
+2022-10-08 05:46:53.846 (I) [BaseEncoder::~BaseEncoder] Stopping encoder thread ...
+2022-10-08 05:46:53.846 (I) [PageRecord::StopPage] Stopped page.
+2022-10-08 05:46:55.438 (S) 
+2022-10-08 05:46:55.438 (S) (pcmanfm:7573): Gdk-WARNING **: 05:46:55.438: gdk_window_set_icon_list: icons too large
+2022-10-08 05:50:01.698 (S) 
+2022-10-08 05:50:01.698 (S) (pcmanfm:7573): Gdk-WARNING **: 05:50:01.698: gdk_window_set_icon_list: icons too large
+2022-10-08 05:56:51.348 (S) 
+2022-10-08 05:56:51.348 (S) (pcmanfm:7573): Gdk-WARNING **: 05:56:51.347: gdk_window_set_icon_list: icons too large
+2022-10-08 05:57:14.261 (I) ==================== SSR stopped ====================
