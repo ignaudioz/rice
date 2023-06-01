@@ -58,6 +58,7 @@
 .config/QtProject.conf
 .config/ibus
 .config/session
+.config/coc
 
 .local/bin/wal
 .config/nvim/autoload
