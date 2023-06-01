@@ -41,7 +41,7 @@
 .config/trash*
 .config/Unknown\ Organization
 .config/Thunar
-.config/Github\ Desktop
+.config/Git*
 .config/btop
 .config/ideavim
 .config/kdeconnect
@@ -53,6 +53,11 @@
 .config/No*
 .config/flameshotrc
 .config/pavucontrol*
+.config/mimeapps.list
+.config/powermanagementprofilesrc
+.config/QtProject.conf
+.config/ibus
+.config/session
 
 .local/bin/wal
 .config/nvim/autoload
