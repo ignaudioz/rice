@@ -33,6 +33,26 @@
 .config/Android\ Open\ Source\ Project
 .config/user*
 .config/budgi*
+.config/greenclip*
+.config/*.ini
+.config/monitors.xml~
+.config/soffice.binrc
+.config/syncthing*
+.config/trash*
+.config/Unknown\ Organization
+.config/Thunar
+.config/Github\ Desktop
+.config/btop
+.config/ideavim
+.config/kdeconnect
+.config/lib*
+.config/pcmanfm
+.config/xfce4
+.config/xsettingsd
+.config/Kee*
+.config/No*
+.config/flameshotrc
+.config/pavucontrol*
 
 .local/bin/wal
 .config/nvim/autoload
