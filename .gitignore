@@ -59,6 +59,7 @@
 .config/ibus
 .config/session
 .config/coc
+.config/spacefm/
 
 .local/bin/wal
 .config/nvim/autoload
