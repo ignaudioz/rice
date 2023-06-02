@@ -15,4 +15,6 @@ done >/dev/null 2>&1
 
 [ -n "$xrdbpid" ] && wait "$xrdbpid"
 
+xrdb ~/.config/xresources/.Xresources &
+
 setxkbmap -layout us,il -option 'grp:alt_shift_toggle' # Language layout

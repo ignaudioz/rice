@@ -13,7 +13,7 @@ autoload -U colors && colors
 
 # PROMPT="%{$fg_bold[white]%}✪ %{$fg_bold[black]%}[%{$fg_bold[white]%}%~%{$fg_bold[black]%}] 
 # %{$fg_bold[black]%}→ %{$reset_color%} "
-PROMPT="%{$fg_bold[gray]%}[%{$fg_bold[blue]%}%~%{$fg_bold[gray]%}] %{$fg[white]%}> %{$reset_color%}"
+PROMPT="%{$fg_bold[gray]%}[%{$fg_bold[white]%}%~%{$fg_bold[gray]%}] %{$fg[white]%}> %{$reset_color%}"
 
 setopt autocd # entering location will auto cd to it
 
