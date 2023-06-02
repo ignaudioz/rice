@@ -1,4 +1,3 @@
-
 #!/bin/sh
 
 # This is a wrapper script for lb that allows it to create image previews with
