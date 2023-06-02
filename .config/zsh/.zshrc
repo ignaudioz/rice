@@ -30,8 +30,22 @@ zmodload zsh/complist
 _comp_options+=(globdots)		# Include hidden files.
 autoload -Uz compinit && compinit
 
+# vi mode
+bindkey -v
+export KEYTIMEOUT=1
+
+# Use vim keys in tab complete menu:
+bindkey -M menuselect 'h' vi-backward-char
+bindkey -M menuselect 'k' vi-up-line-or-history
+bindkey -M menuselect 'l' vi-forward-char
+bindkey -M menuselect 'j' vi-down-line-or-history
 # Fix backspace bug
+
+# fzf on history
 bindkey "^?" backward-delete-char
+histfzf() { tac $HISTFILE | fzf; zle redisplay }
+zle -N histfzf
+bindkey '^f' histfzf
 
 # Syntax highlighting !
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets)
@@ -39,7 +53,7 @@ ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets)
 
 # Load shit
 [ -e "${XDG_CONFIG_HOME:-$HOME/.config}/zsh/aliasrc" ] && source "${XDG_CONFIG_HOME:-$HOME/.config}/zsh/aliasrc"
-# [ -e  "${XDG_CONFIG_HOME:-$HOME/.config}/zsh/highlightzsh" ] && source "${XDG_CONFIG_HOME:-$HOME/.config}/zsh/highlightzsh"
+[ -e  "${XDG_CONFIG_HOME:-$HOME/.config}/zsh/highlightzsh" ] && source "${XDG_CONFIG_HOME:-$HOME/.config}/zsh/highlightzsh"
 
 # Color scheme
 # (cat ~/.cache/wal/sequences &)
