@@ -38,13 +38,8 @@ let mapleader = " "
 
 nnoremap gf :e <cfile><CR>
 nnoremap <leader>b  :Buffers<CR>
-" Move between tabs.
 map <C-J> :bnext<CR>
 map <C-K> :bprev<CR>
-" Bidirectional text switch
-map <C-Space> :set invrl<CR>
-imap <C-Space> <Esc>:set invrl<CR>a
-
 
 " Vim plug
 so $XDG_CONFIG_HOME/nvim/vim-plug/plugins.vim
