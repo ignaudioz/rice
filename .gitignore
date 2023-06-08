@@ -61,6 +61,7 @@
 .config/coc
 .config/spacefm/
 .config/android/
+.config/java/
 
 .local/bin/wal
 .config/nvim/autoload
