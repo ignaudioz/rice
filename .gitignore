@@ -9,8 +9,8 @@
 .config/dconf
 .config/clearine
 .config/monitors.xml
-# .config/lyxrc
-# .config/LyX
+.config/lyxrc
+.config/LyX
 .config/obsidian
 .config/pulse
 .config/polybar
