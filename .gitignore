@@ -62,6 +62,8 @@
 .config/spacefm/
 .config/android/
 .config/java/
+.config/audacious/
+.config/qBittorrent/
 
 .local/bin/wal
 .config/nvim/autoload
