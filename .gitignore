@@ -60,6 +60,7 @@
 .config/session
 .config/coc
 .config/spacefm/
+.config/android/
 
 .local/bin/wal
 .config/nvim/autoload
