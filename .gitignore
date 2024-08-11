@@ -8,19 +8,17 @@
 !/.zshenv
 !/.xprofile
 
-/.config/**
+!/.config/dunst/**
+!/.config/picom/**
+!/.config/neofetch/**
 
-!/.config/dunst
-!/.config/picom
-!/.config/neofetch
-
-!/.config/nvim
+!/.config/nvim/**
 /.config/nvim/autoload/plugged**
 
-!/.config/zsh
-!/.config/shell
-!/.config/lf
-!/.config/x11
+!/.config/zsh/**
+!/.config/shell/**
+!/.config/lf/**
+!/.config/x11/**
 
 !/.local/bin/**
 !/.local/share/bg
