@@ -46,8 +46,10 @@
 .config/ideavim
 .config/kdeconnect
 .config/lib*
+.config/main.sh
 .config/pcmanfm
 .config/xfce4
+.config/xfmw4
 .config/xsettingsd
 .config/Kee*
 .config/No*
@@ -64,6 +66,9 @@
 .config/java/
 .config/audacious/
 .config/qBittorrent/
+.config/font*
+.config/oomox
+.config/yay
 
 .local/bin/wal
 .config/nvim/autoload

@@ -3,7 +3,7 @@
 
 ${XDG_CONFIG_HOME:-$HOME/.config}/screenlayout/main.sh &
 setbg &
-autostart="xcompmgr dunst dwmblocks greenclip kdeconnect-indicator"
+autostart="picom dunst dwmblocks pipewire pipewire-pulse wireplumber greenclip kdeconnect-indicator"
 
 for program in $autostart; do
     if [ "$program" != "greenclip" ]; then 

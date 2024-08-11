@@ -28,14 +28,19 @@ export CUDA_CACHE_PATH="$XDG_CACHE_HOME/nv"
 export TEXMFVAR="$XDG_CACHE_HOME/texlive/texmf-var"
 export GRADLE_USER_HOME="$XDG_DATA_HOME/gradle"
 
-export ZDOT="/home/audioz/.config/zsh/"
-export PATH=$PATH:~/.local/bin:
-export LC_ALL=en_US.UTF-8
 
 # Java
 export JDTLS_HOME="/usr/share/java/jdtls"
+export JAVA_HOME="/usr/lib/jvm/java-8-openjdk"
 export _JAVA_AWT_WM_NONREPARENTING=1
 export _JAVA_OPTIONS=-Djava.util.prefs.userRoot="$XDG_CONFIG_HOME/java"
+# https://github.com/NVIDIA/open-gpu-kernel-modules/issues/522
+export __GL_THREADED_OPTIMIZATIONS=0
+
+#General
+export ZDOT="/home/audioz/.config/zsh/"
+export PATH=$PATH:~/.local/bin:
+export LC_ALL=en_US.UTF-8
 
 # Start graphical server on user's current tty if not already running.
 [ "$(tty)" = "/dev/tty1" ] && ! pidof -s Xorg >/dev/null 2>&1 && exec startx "$XINITRC"
