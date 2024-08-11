@@ -11,8 +11,10 @@
 !/.config/dunst
 !/.config/picom
 !/.config/neofetch
+
 !/.config/nvim
-/.config/nvim/plugged/*
+/.config/nvim/autoload/plugged**
+
 !/.config/zsh
 !/.config/shell
 !/.config/lf
