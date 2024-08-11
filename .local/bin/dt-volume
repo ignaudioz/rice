@@ -1,0 +1,28 @@
+#!/bin/sh
+
+notifyMuted() {
+        volume="$1"
+        dunstify -h string:x-canonical-private-synchronous:audio "Muted" -h int:value:"$volume" -t 1500 --icon audio-volume-muted
+}
+
+notifyAudio() {
+        volume="$1"
+
+        if [ $volume -eq 0 ]; then
+                notifyMuted "$volume"
+        elif [ $volume -le 30 ]; then
+                dunstify -h string:x-canonical-private-synchronous:audio "Volume: " -h int:value:"$volume" -t 1500 --icon audio-volume-low
+        elif [ $volume -le 70 ]; then
+                dunstify -h string:x-canonical-private-synchronous:audio "Volume: " -h int:value:"$volume" -t 1500 --icon audio-volume-medium
+        else
+                dunstify -h string:x-canonical-private-synchronous:audio "Volume: " -h int:value:"$volume" -t 1500 --icon audio-volume-high
+        fi
+}
+
+
+volume=`pamixer --get-volume`
+if [ "$volume" -eq 0 ]; then
+        notifyMuted "$volume"
+else
+        notifyAudio "$volume"
+fi
