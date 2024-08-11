@@ -1,3 +1,1 @@
-# artixrice
-
 ~ veri col ~
