@@ -1,5 +1,0 @@
-#!/bin/sh
-
-language=$(xkblayout print %s)
-
-echo "🌎 $language"

@@ -3,6 +3,10 @@
 !/.gitignore
 !/.gitignore_global
 !/README.md
+!/LICENSE
+!/.zshenv
+!/.xprofile
+
 !/.config/dunst
 !/.config/picom
 !/.config/neofetch
