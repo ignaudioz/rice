@@ -3,13 +3,13 @@
 
 ${XDG_CONFIG_HOME:-$HOME/.config}/screenlayout/main.sh &
 setbg &
-autostart="picom dunst dwmblocks greenclip kdeconnect-indicator"
+autostart="picom dunst dwmblocks greenclip kkdeconnectd deconnect-indicator autorandr"
 
 for program in $autostart; do
-    if [ "$program" != "greenclip" ]; then 
-      pidof -sx "$program" || "$program" &
-    else
+    if [ "$program" == "greenclip" ]; then 
       pidof -sx "$program" || "$program" daemon &
+    else
+      pidof -sx "$program" || "$program" &
     fi
 done >/dev/null 2>&1
 
