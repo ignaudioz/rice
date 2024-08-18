@@ -1,0 +1,20 @@
+#!/bin/sh
+
+
+${XDG_CONFIG_HOME:-$HOME/.config}/screenlayout/main.sh &
+setbg &
+autostart="picom dunst dwmblocks greenclip kdeconnect-indicator"
+
+for program in $autostart; do
+    if [ "$program" != "greenclip" ]; then 
+      pidof -sx "$program" || "$program" &
+    else
+      pidof -sx "$program" || "$program" daemon &
+    fi
+done >/dev/null 2>&1
+
+[ -n "$xrdbpid" ] && wait "$xrdbpid"
+
+xrdb ~/.config/xresources/.Xresources &
+
+setxkbmap -layout us,il -option 'grp:alt_shift_toggle' # Language layout
